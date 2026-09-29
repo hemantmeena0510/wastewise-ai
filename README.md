@@ -17,6 +17,8 @@ Build the production bundle with `npm run build` and run the automated checks wi
 
 Push to the `main` branch to build and deploy the site with GitHub Actions. In the repository settings, set **Pages → Build and deployment → Source** to **GitHub Actions**. The workflow builds the app using the repository name as its base path, so it works at the GitHub Pages project URL.
 
+Once deployed, visit <https://hemantmeena0510.github.io/wastewise-ai/>.
+
 ## Demo prediction logic
 
 The prediction service is isolated in `src/engine.js` and can be replaced behind `src/service.js` when a real backend is available. Given valid scenario inputs, the deterministic demo engine estimates demand as:
